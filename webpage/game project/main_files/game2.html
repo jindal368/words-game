@@ -1,0 +1,43 @@
+
+<html lang="en">
+<head>
+	
+	<title>jumble words Game</title>
+	 
+</head>
+<body bgcolor="orange">
+	<style type="text/css">
+		p{text-align: center; font-size: 50px;border-style: double;background-color: blue;border-radius: 40px;}
+		h1{text-align: center;background-color: blue;font-size: 60px;border-radius: 40px;border-style: double;}
+		input{font-size: 50px;border-radius: 10px;}
+		header{text-align: center;font-size: 30px;border-bottom: double;}
+		h2{text-shadow: 10px 10px 20px green;text-align: center;}
+		h3{background-color: skyblue;border-style: double;}
+		#button{font-size: 30px;background-color: green;position: center;}
+		#Quit{font-size: 30px;background-color: red;
+		h4{background-color: white;border-bottom: double;}
+		h5{font-size: 15px;background-color: orange;border-style: double;}
+	</style>
+<p>Jumble words </p>
+<header>Arrange the given word into meaningful word</header>
+<button id="button" onclick="init()">Start game </button>
+
+
+<h1 id="currentword">ishesvh</h1>
+
+<input align="center" type="text" id="wordinput" placeholder="Start typing.." autofocus class="form-control-lg">
+	<h2 id="message"></h2>
+<h2>Time Taken:<span id="time">0</span>Sec</h2>
+<h2>Score:<span id="Score">0</span></h2>
+<div><button id="Quit" onclick="end()">Quit the game</button></div>
+<h2 id="ins" style="border: double;">Instruction</h2>
+<h3>User have arrange the given words into meaningful word.
+once the user reload the page,time again starts to proceeding.</h3>
+<h4>Information regarding Level................</h4>
+<h5>1.press start game to start the game<br>2.To increase the clock speed press start game again and again,it will increase the clock speed by double.<br>3.Press <span>Quit the game</span> to quit,and then reload the page to start again.</h5>
+
+<a href="open_web.html">Back to homepage</a>
+</body>
+<script src="main2.js"></script>
+
+</html>
